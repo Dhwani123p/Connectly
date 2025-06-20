@@ -20,10 +20,8 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: [
-    "http://localhost:5173",
-    "https://connectly-rho.vercel.app/" 
-  ],
+    origin: 
+    "https://connectly-rho.vercel.app/",
     credentials: true,
   })
 );
