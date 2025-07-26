@@ -21,7 +21,7 @@ app.use(cookieParser());
 app.use(
   cors({
     origin: 
-    "https://connectly-rho.vercel.app/",
+    "https://connectly-rho.vercel.app",
     credentials: true,
   })
 );
